@@ -15,7 +15,7 @@ The model uses **Label Smoothing** ($0.1$) to prevent over-fitting. Below is the
 
 <p align="center">
   <img src="accuracy_plot.png" width="45%" alt="Accuracy Plot" />
-  <img src="YOUR_LOSS_PLOT_URL_HERE" width="45%" alt="Loss Plot" />
+  <img src="loss_plot.png" width="45%" alt="Loss Plot" />
 </p>
 
 * **Validation Accuracy:** Achieved **89.61%**.
