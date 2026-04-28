@@ -14,7 +14,7 @@ This project implements a custom **Deep Convolutional Neural Network (DCNN)** to
 The model uses **Label Smoothing** ($0.1$) to prevent over-fitting. Below is the visualization of the training history:
 
 <p align="center">
-  <img src="YOUR_ACCURACY_PLOT_URL_HERE" width="45%" alt="Accuracy Plot" />
+  <img src="accuracy_plot.png" width="45%" alt="Accuracy Plot" />
   <img src="YOUR_LOSS_PLOT_URL_HERE" width="45%" alt="Loss Plot" />
 </p>
 
