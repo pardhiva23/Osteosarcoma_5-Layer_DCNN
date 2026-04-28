@@ -24,7 +24,7 @@ The model uses **Label Smoothing** ($0.1$) to prevent over-fitting. Below is the
 ### 2. Confusion Matrix
 The confusion matrix shows exactly where the model is succeeding.
 <p align="center">
-  <img src="YOUR_CONFUSION_MATRIX_URL_HERE" width="50%" />
+  <img src="confusion_matrix.png" width="50%" />
 </p>
 
 * **Analysis:** The "Non-Tumor" class shows the highest precision, while the model effectively distinguishes between Viable and Non-Viable tumor cells despite their visual similarities.
@@ -57,13 +57,6 @@ We use a sophisticated block design including:
 
 ---
 
-## How to Run
-1. Upload your `kaggle.json`.
-2. Run the cells in order.
-3. The best model will be saved as `best_model.keras`.
-
----
-
 ## Prediction Pipeline
 The notebook includes a robust prediction function `predict_image()` that transforms raw histology slides into actionable data.
 
@@ -73,7 +66,7 @@ The notebook includes a robust prediction function `predict_image()` that transf
 3. **Visualization:** The code plots the image alongside a probability bar chart.
 
 ### Example Output:
-![Prediction Example](PASTE_LINK_TO_PREDICTION_IMG)
+<img src="prediction_sample.png" width="50%" />
 
 ---
 
