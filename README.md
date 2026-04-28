@@ -65,8 +65,12 @@ The notebook includes a robust prediction function `predict_image()` that transf
 2. **Softmax Output:** The model returns a probability distribution across the 3 classes.
 3. **Visualization:** The code plots the image alongside a probability bar chart.
 
-### Example Output:
-<img src="prediction_sample.png" width="50%" />
+### Example Output: 
+--> Actual_Class : Viable_Tumor
+
+<p align="center">
+  <img src="Viable_image_Prediction.png" width="50%" />
+</p>
 
 ---
 
